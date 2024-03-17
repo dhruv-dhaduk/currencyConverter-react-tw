@@ -1,5 +1,14 @@
+import { useCurrencies } from "./hooks";
+
 function App() {
-    return <div>Currency Converter</div>;
+
+    // const [from, rates, changeBase, convertCurrency] = useCurrencies("USD");
+
+    return (
+        <div>
+            Currency Converter
+        </div>
+    );
 }
 
 export default App;
